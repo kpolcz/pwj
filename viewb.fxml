@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane prefHeight="449.0" prefWidth="696.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewController">
+    <children>
+        <StackPane>
+            <children>
+                <VBox prefHeight="419.0" prefWidth="643.0" spacing="10.0">
+                    <children>
+                        <GridPane>
+                            <children>
+                                <Label text="ID" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                <Label fx:id="idF1" text="Numer sali" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                        <Label prefHeight="17.0" prefWidth="186.0" text="Zajęta od" GridPane.columnIndex="1" />
+                        <Label text="Zajęta do" GridPane.columnIndex="2" />
+                        <Label prefHeight="17.0" prefWidth="171.0" text="Zarezerwowana przez" GridPane.columnIndex="3" />
+                        <Label fx:id="idF2" text="Numer sali" GridPane.rowIndex="2" />
+                        <Label fx:id="idF3" text="Numer sali" GridPane.rowIndex="3" />
+                        <Label fx:id="idF4" text="Numer sali" GridPane.rowIndex="4" />
+                        <Label fx:id="bfrom3" text="Numer sali" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label fx:id="bfrom2" text="Numer sali" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="bfrom1" text="Numer sali" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="bfrom4" text="Numer sali" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label fx:id="buntil1" text="Numer sali" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Label fx:id="buntil2" text="Numer sali" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Label fx:id="buntil3" prefHeight="0.0" prefWidth="57.0" text="Numer sali" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Label fx:id="buntil4" prefHeight="0.0" prefWidth="57.0" text="Numer sali" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                        <Label fx:id="resby4" text="Numer sali" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                        <Label fx:id="resby3" text="Numer sali" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <Label fx:id="resby1" text="Numer sali" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                        <Label fx:id="resby2" text="Numer sali" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                            </children>
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="148.0" minWidth="10.0" prefWidth="109.0" />
+                                <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="189.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="189.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="189.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                        </GridPane>
+                        <StackPane prefHeight="82.0" prefWidth="211.0">
+                            <children>
+                        <Button fx:id="back" alignment="CENTER" defaultButton="true" mnemonicParsing="false" text="powrót" StackPane.alignment="CENTER_LEFT" />
+                            </children>
+                        </StackPane>
+                    </children>
+                </VBox>
+            </children>
+        </StackPane>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</StackPane>
